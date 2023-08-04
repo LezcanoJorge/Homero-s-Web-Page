@@ -11,9 +11,24 @@ body {
 @media (min-width: 1200px) {
 
   h1{
+position: relative;
+    left: 180px;
   font-family:'Cooper Black Regular';
   font-weight: bold;
   font-size: 100px;
-  line-height: 10px;
+  line-height: 0px;
+  top: -15px;
 }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+@font-face {
+  font-family: 'Cooper Black Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cooper Black Regular'), url('src/COOPBL.woff') format('woff');
 }

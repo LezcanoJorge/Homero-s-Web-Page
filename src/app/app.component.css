@@ -1,41 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
-@font-face {
-  font-family: 'Cooper Black Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Cooper Black Regular'), url('src/COOPBL.woff') format('woff');
-
-}
-
-@media (max-width: 540px) {
-  h1{
-    font-family: 'Cooper Black Regular';
-    font-weight: bold;
-    font-size: 38px;
-top: 0;
-  }
-}
-.v1_5 {
-  width: 100%;
-  height: 689px;
-  background: rgba(120,187,203,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
 .campana1 {
   width: 95px;
   height: 95px;
   background: url("../assets/campana.gif");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   opacity: 1;
   position: absolute;
@@ -43,6 +11,7 @@ top: 0;
   left: 145px;
   overflow: hidden;
 }
+
 .campana2 {
   width: 107px;
   height: 119px;
@@ -56,6 +25,7 @@ top: 0;
   left: 903px;
   overflow: hidden;
 }
+
 .boca1 {
   width: 126px;
   height: 119px;
@@ -69,6 +39,7 @@ top: 0;
   left: 365px;
   overflow: hidden;
 }
+
 .boca2 {
   width: 124px;
   height: 119px;
@@ -82,6 +53,7 @@ top: 0;
   left: 1115px;
   overflow: hidden;
 }
+
 .gusano1 {
   width: 114px;
   height: 72px;
@@ -95,6 +67,7 @@ top: 0;
   left: 90px;
   overflow: hidden;
 }
+
 .gusano2 {
   width: 96px;
   height: 80px;
@@ -122,6 +95,7 @@ top: 0;
   left: 101px;
   overflow: hidden;
 }
+
 .gusano4 {
   width: 76px;
   height: 78px;
@@ -135,6 +109,7 @@ top: 0;
   left: 187px;
   overflow: hidden;
 }
+
 .reloj2 {
   width: 94px;
   height: 99px;
@@ -148,6 +123,7 @@ top: 0;
   left: 1130px;
   overflow: hidden;
 }
+
 .reloj1 {
   width: 99px;
   height: 102px;
@@ -161,6 +137,7 @@ top: 0;
   left: 193px;
   overflow: hidden;
 }
+
 .reloj3 {
   width: 126px;
   height: 126px;
@@ -174,6 +151,7 @@ top: 0;
   left: 365px;
   overflow: hidden;
 }
+
 .tostadora4 {
   width: 150px;
   height: 149px;
@@ -187,6 +165,7 @@ top: 0;
   left: 101px;
   overflow: hidden;
 }
+
 .tostadora3 {
   width: 100px;
   height: 101px;
@@ -200,6 +179,7 @@ top: 0;
   left: 378px;
   overflow: hidden;
 }
+
 .tostadora1 {
   width: 126px;
   height: 116px;
@@ -213,6 +193,7 @@ top: 0;
   left: 1080px;
   overflow: hidden;
 }
+
 .tostadora2 {
   width: 139px;
   height: 137px;
@@ -226,6 +207,7 @@ top: 0;
   left: 871px;
   overflow: hidden;
 }
+
 .jesus {
   width: 264px;
   height: 491px;
